@@ -2,7 +2,7 @@
 
 This is a boilerplate flutter project created using Riverpod and GetIt. It currently support only Mobile (Tablet and Phone) with both production and staging environment capabilities, clone the appropriate branches mentioned below:
 
-* For Mobile: https://github.com/peterewanfo/flutter-riverpod-boilerplate-project/master (stable channel)
+* For Mobile: https://github.com/peterewanfo/flutter_riverpod_boilerplate_project
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ Please note: This repository requires [Flutter](https://flutter.dev/docs/get-sta
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/zubairehman/flutter-boilerplate-project.git
+https://github.com/peterewanfo/flutter_riverpod_boilerplate_project.git
 ```
 
 **Step 2:**
