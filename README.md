@@ -173,7 +173,6 @@ This contains manager/handler for managing dialogs and application navigation at
 
 * [Blog post 1](https://medium.com/flutter-community/manager-your-flutter-dialogs-with-a-dialog-manager-1e862529523a)<br />
 * [Blog post 2](https://medium.com/@devcrazelu/lets-a-build-custom-flutter-dialog-handler-feeb6e2acbf3)<br />
-
 Special thanks to the creators.<br />
 This is what the `handlers` file structure looks like
 
