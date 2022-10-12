@@ -106,7 +106,7 @@ assets/
 | - images
 ```
 
-### Assets
+### Lib
 
 Let's see a detailed view on the [lib folder](./lib/)
 
