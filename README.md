@@ -1,8 +1,8 @@
 # Flutter Riverpod Boilerplate Project
 
-This is a boilerplate flutter project created using Riverpod and GetIt. It currently support only Mobile (Tablet and Phone) with both production and staging environment capabilities, clone the appropriate branches mentioned below:
+This is a boilerplate flutter project created using Riverpod and GetIt. It currently support only Mobile (Tablet and Phone) with both production and staging environment capabilities. You can clone the project using the link below:
 
-* For Mobile: https://github.com/peterewanfo/flutter_riverpod_boilerplate_project
+* https://github.com/peterewanfo/flutter_riverpod_boilerplate_project
 
 ## Getting Started
 
@@ -97,7 +97,7 @@ app-base-directory/
 ```
 
 ### Assets
-This contains static image resources and fonts used in the application
+This contains static image resources and fonts used in the application<br />
 This is what the `assets` file structure looks like
 
 ```
@@ -169,10 +169,12 @@ You can check [this article](https://medium.com/@mustafatahirhussein/shared-pref
 
 ### Handlers
 
-This contains manager/handler for managing dialogs and application navigation at a global level. with this, we're making provisions to enable navigations and dialog pop-up from anywhere in our application either in views/viewmodel/custom functional methods e.t.c. Learn more about this from these amazing blog posts.
-[* Blog post 1](https://medium.com/flutter-community/manager-your-flutter-dialogs-with-a-dialog-manager-1e862529523a) 
-[* Blog post 2](https://medium.com/@devcrazelu/lets-a-build-custom-flutter-dialog-handler-feeb6e2acbf3)
-Special thanks to the creators.
+This contains manager/handler for managing dialogs and application navigation at a global level. with this, we're making provisions to enable navigations and dialog pop-up from anywhere in our application either in views/viewmodel/custom functional methods e.t.c. Learn more about this from these amazing blog posts
+
+* [Blog post 1](https://medium.com/flutter-community/manager-your-flutter-dialogs-with-a-dialog-manager-1e862529523a)<br />
+* [Blog post 2](https://medium.com/@devcrazelu/lets-a-build-custom-flutter-dialog-handler-feeb6e2acbf3)<br />
+
+Special thanks to the creators.<br />
 This is what the `handlers` file structure looks like
 
 ```
@@ -401,8 +403,8 @@ class ConnectionStatus {
 
 6.  `validators.dart`: This file contain custom form validators used in your application.
 
-7.  `locator.dart`: This file contains the configuration of getIt service locator used in this boilerplate.
-*More Explanation - In here we register shared preferences and custom app flavour as singleton and other classes used as lazy singleton. The purpose of lazy singleton is for initializing resources at the time of the first request instead at the time of declaration.
+7.  `locator.dart`: This file contains the configuration of getIt service locator used in this boilerplate.<br />
+* More Explanation - In here we register shared preferences and custom app flavour as singleton and other classes used as lazy singleton. The purpose of lazy singleton is for initializing resources at the time of the first request instead at the time of declaration.
 
 *sample code - `locator.dart`
 ```dart
